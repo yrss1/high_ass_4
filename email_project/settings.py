@@ -40,8 +40,6 @@ INSTALLED_APPS = [
     'tasks',
     'django_celery_results',
     'rest_framework',
-    'django_cryptography',
-    'secure_app',
 ]
 
 
@@ -139,4 +137,3 @@ CELERY_RESULT_SERIALIZER = 'json'
 
 # Email Configuration (for demonstration purposes, use console backend)
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-AUTH_USER_MODEL = 'secure_app.CustomUser'
